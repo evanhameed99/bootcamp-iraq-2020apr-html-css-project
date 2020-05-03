@@ -49,8 +49,14 @@ The technologies used in this website are :
 
 ---
 
-# Features 
+## Features 
 
 * Mobile and tablet friendly
 * Well formatted content that is easy to follow
 * Smooth and cool animations
+
+--- 
+
+## Status
+
+Project is: in progress
