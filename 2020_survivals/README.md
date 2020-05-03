@@ -46,3 +46,11 @@ The technologies used in this website are :
 ## Requirements 
 
 * a web browser( Internet explorer 9 and down is not supported)
+
+---
+
+# Features 
+
+* Mobile and tablet friendly
+* Well formatted content that is easy to follow
+* Smooth and cool animations
