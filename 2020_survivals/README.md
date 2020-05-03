@@ -66,6 +66,6 @@ Project is: in progress
 ## Contributors 
 
 - Sarah Mohammed [@GitHub](https://github.com/sara-mohammed96)
-- Arvin Alhissou [@GitHub](https://www.flynerd.pl/)
+- Arvin Alhissou [@GitHub](https://github.com/Arvinalhissou)
 - Hussein Talal [@GitHub](https://github.com/husseinTalal2)
 - Evan Hameed [@GitHub](https://github.com/evanhameed99)
