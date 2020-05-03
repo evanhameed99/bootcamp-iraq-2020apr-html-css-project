@@ -26,7 +26,7 @@ The website contains several sections such as home, services, news and contact.
 
 ## Screenshots 
 
-![Desktop view](./imgs/screenshots/desktop-view.png)
+![Desktop view](./imgs/screenshots/desktop-view.png =300)
 ![Tablet view](./imgs/screenshots/mobile-view.png)
 ![Mobile view](./imgs/screenshots/tablet-view.png)
 
@@ -69,4 +69,3 @@ Project is: in progress
 - Arvin Alhissou [@GitHub](https://www.flynerd.pl/)
 - Hussein Talal [@GitHub](https://github.com/husseinTalal2)
 - Evan Hameed [@GitHub](https://github.com/evanhameed99)
-[@desktop-view](./imgs/screenshots/desktop-view.png)
