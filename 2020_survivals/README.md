@@ -29,3 +29,10 @@ The website contains several sections such as home, services, news and contact.
 ![Mobile view](./imgs/screenshots/tablet-view.png)
 
 
+## Technologies 
+
+The technologies used in this website are :
+
+* HTML(Hyper Text Markup Language)
+* CSS (Cascading Styles Sheets)
+* Bootstrap 4
