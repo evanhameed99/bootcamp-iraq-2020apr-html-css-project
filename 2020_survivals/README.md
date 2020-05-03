@@ -69,3 +69,4 @@ Project is: in progress
 - Arvin Alhissou [@GitHub](https://www.flynerd.pl/)
 - Hussein Talal [@GitHub](https://github.com/husseinTalal2)
 - Evan Hameed [@GitHub](https://github.com/evanhameed99)
+[@desktop-view](./imgs/screenshots/desktop-view.png)
