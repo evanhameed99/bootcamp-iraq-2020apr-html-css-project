@@ -26,9 +26,9 @@ The website contains several sections such as home, services, news and contact.
 
 ## Screenshots 
 
-<img src="./imgs/screenshots/desktop-view.png" width="300" height="625">
-<img src="./imgs/screenshots/tablet-view.png" width="300" height="3000">
-<img src="./imgs/screenshots/mobile-view.png" width="300" height="3000">
+![Desktop view](./imgs/screenshots/desktop-view.png)
+![Tablet view](./imgs/screenshots/mobile-view.png)
+![Mobile view](./imgs/screenshots/tablet-view.png)
 
 
 ---
