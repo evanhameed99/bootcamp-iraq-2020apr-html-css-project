@@ -22,12 +22,16 @@ The website contains several sections such as home, services, news and contact.
 * The news webpage provides the latest news about the biggest deals and latest companies achievements.
 * Contact containes section for contacting the company and another section for viewing the location of the company.
 
+---
+
 ## Screenshots 
 
 ![Desktop view](./imgs/screenshots/desktop-view.png)
 ![Tablet view](./imgs/screenshots/mobile-view.png)
 ![Mobile view](./imgs/screenshots/tablet-view.png)
 
+
+---
 
 ## Technologies 
 
@@ -36,3 +40,9 @@ The technologies used in this website are :
 * HTML(Hyper Text Markup Language)
 * CSS (Cascading Styles Sheets)
 * Bootstrap 4
+
+---
+
+## Requirements 
+
+* a web browser( Internet explorer 9 and down is not supported)
