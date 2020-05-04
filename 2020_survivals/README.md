@@ -12,6 +12,7 @@
 * [Requirements](#requirements)
 * [Features](#features)
 * [Status](#status)
+* [Workflow](#workflow)
 * [Contributors](#contributors)
 
 
@@ -70,6 +71,19 @@ Project is: in progress
 
 ---
 
+## Workflow
+
+Workflow procedure :
+
+* a master branch that have only the finished work.
+* a develop branch that contains the work that is under developing .
+* each member in the team will create a branch from develop branch for the part that he/she is working on.
+* after completing the part in the branch will be merged with the develop branch after the review of the team.
+* when completing the work on the develop branch it will be merged with the master branch.
+
+![Workflow](./imgs/screenshots/workflow.jpeg)
+
+---
 ## Contributors 
 
 - Sarah Mohammed [@GitHub](https://github.com/sara-mohammed96)
