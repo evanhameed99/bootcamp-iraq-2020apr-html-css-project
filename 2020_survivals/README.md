@@ -7,6 +7,7 @@
  ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
+* [Links](#link)
 * [Technologies](#technologies)
 * [Requirements](#requirements)
 * [Features](#features)
@@ -33,6 +34,12 @@ The website contains several sections such as home, services, news and contact.
 
 ---
 
+## Links
+
+[Finances Website](https://jevelin.shufflehound.com/finances/#)
+
+
+---
 ## Technologies 
 
 The technologies used in this website are :
