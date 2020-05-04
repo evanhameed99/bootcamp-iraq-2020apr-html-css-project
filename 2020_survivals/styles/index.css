@@ -45,6 +45,7 @@ footer {
 .col-list-link:hover {
     text-decoration: none;
     color: var(--link-hvr-color) ;
+    transition: .4s all ease-in-out;
 }
 
 .copyright {
