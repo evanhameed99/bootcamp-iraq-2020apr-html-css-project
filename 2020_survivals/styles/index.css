@@ -69,3 +69,17 @@ color: brown;
 #home{
 	margin-bottom: 0;
 }
+.sec1{
+    display: flex;
+	justify-content: baseline;
+	align-items: flex-end;
+} 
+}
+.placeBox{
+    display: flex;
+    position: relative;
+	max-width: 380px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 30px;
+}
