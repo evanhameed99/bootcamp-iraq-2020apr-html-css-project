@@ -7,7 +7,7 @@
  ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
-* [Links](#link)
+* [Links](#links)
 * [Technologies](#technologies)
 * [Requirements](#requirements)
 * [Features](#features)
