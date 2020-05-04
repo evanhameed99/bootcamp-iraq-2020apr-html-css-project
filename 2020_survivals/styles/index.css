@@ -1,6 +1,7 @@
 :root {
     
     --main-ftr-color: #3f3d56;
+    --text-color: #bebbdc
     
   }
 .col-list {
@@ -30,4 +31,15 @@ footer {
     font-weight: 600;
     color: white;
 }
+
+.list-item {
+    color:var(--text-color);
+}
+
+.list-item a {
+    color: var(--text-color);
+    text-decoration: none;
+} 
+
+
 
