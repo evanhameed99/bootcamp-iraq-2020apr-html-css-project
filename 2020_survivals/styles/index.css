@@ -82,42 +82,47 @@ color: brown;
 .feature{
     display: flex;
     flex-direction: row;
+    
    background-color: #fff;
    margin-top: -240px ;
    z-index: 1;
     
 }
 
-.placeBox{ 
+.wrapper{ 
     display: flex;
-    position: relative;
-    margin:90px ;
-    width: 40rem;
-    height: 300px;
-    padding: 10px;
+    text-align: left;
+   /* margin:90px ;
+    width: 16rem;
+    padding: 10px;*/
+    width: 100%;  
     
   
 } 
-/*
-.placeBox h2{
+
+.wrapper h2{
     font-size: 2rem;
     font-weight: bold;
     color: rgb(67, 67, 99);
     padding-bottom: 20px;
 }
-.placeBox p{
+.wrapper p{
     padding-bottom: 20px;
     color: rgb(107, 103, 103);
+    text-align: left;
+    
 }
-.placeBox .btnD1{
+.wrapper .btnD1{
     background-color: rgb(243, 65, 65);
-    border-radius: 40%;
+    border-radius: 40px;
+    padding: 10px 20px;
     font-weight: bold;
+    color: white;
 
 }
-.placeBox h3{
+.wrapper h3{
     font-weight: bold;
     color: rgb(67, 67, 99);
     padding:20px 10px; 
-}*/
+}
 
