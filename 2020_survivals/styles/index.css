@@ -82,23 +82,15 @@ color: brown;
 .feature{
     display: flex;
     flex-direction: row;
-    
+    justify-items: center;
    background-color: #fff;
-   margin-top: -240px ;
+   margin-top: -250px ;
+   width: 250rem;
    z-index: 1;
     
 }
 
-.wrapper{ 
-    display: flex;
-    text-align: left;
-   /* margin:90px ;
-    width: 16rem;
-    padding: 10px;*/
-    width: 100%;  
-    
-  
-} 
+ 
 
 .wrapper h2{
     font-size: 2rem;
