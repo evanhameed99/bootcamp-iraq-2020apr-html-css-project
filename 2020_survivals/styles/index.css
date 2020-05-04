@@ -1,3 +1,8 @@
+:root {
+    
+    --main-ftr-color: #3f3d56;
+    
+  }
 .col-list {
     list-style: none;
     padding-left: 0;
@@ -5,8 +10,6 @@
 
 footer {
     min-height: 50vh;
+    background-color: var(--main-ftr-color);
 }
 
-footer .row {
-    margin: 4rem 0;
-}
