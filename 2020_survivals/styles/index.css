@@ -32,11 +32,11 @@ footer {
     color: white;
 }
 
-.list-item {
+.col-list-item {
     color:var(--text-color);
 }
 
-.list-item a {
+.col-list-link{
     color: var(--text-color);
     text-decoration: none;
 } 
