@@ -6,3 +6,7 @@
 footer {
     min-height: 50vh;
 }
+
+footer .row {
+    margin: 4rem 0;
+}
