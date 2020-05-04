@@ -3,7 +3,7 @@
     --main-ftr-color: #3f3d56;
     --text-color: #bebbdc;
     --link-hvr-color:#ee2c35;
-  }
+}
 .col-list {
     list-style: none;
     padding-left: 0;
@@ -58,5 +58,8 @@ footer {
    margin-bottom: 1rem;
 }
 
+.row {
+    margin: 0 auto;
+}
 
 
