@@ -1,3 +1,6 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 :root {
     
     --main-ftr-color: #3f3d56;
@@ -61,5 +64,3 @@ footer {
 .row {
     margin: 0 auto;
 }
-
-
