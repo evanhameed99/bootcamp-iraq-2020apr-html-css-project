@@ -68,6 +68,7 @@ The technologies used in this website are :
 ## Status
 
 Project is: in progress
+Planning to complete the HTML structure and layout by tuesday May 5,2020 (25%)
 
 ---
 
