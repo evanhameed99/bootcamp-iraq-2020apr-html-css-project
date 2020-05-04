@@ -1,8 +1,8 @@
 :root {
     
     --main-ftr-color: #3f3d56;
-    --text-color: #bebbdc
-    
+    --text-color: #bebbdc;
+    --link-hvr-color:#ee2c35;
   }
 .col-list {
     list-style: none;
@@ -38,8 +38,12 @@ footer {
 
 .col-list-link{
     color: var(--text-color);
+}
+
+.col-list-link:hover {
     text-decoration: none;
-} 
+    color: var(--link-hvr-color) ;
+}
 
 .copyright {
     font-size: 12px;
