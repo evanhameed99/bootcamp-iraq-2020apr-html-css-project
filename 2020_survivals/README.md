@@ -14,6 +14,7 @@
 * [Status](#status)
 * [Workflow](#workflow)
 * [Contributors](#contributors)
+* [Members roles](#members-roles)
 
 
 ## General info 
@@ -91,3 +92,13 @@ Workflow procedure :
 - Arvin Alhissou [@GitHub](https://github.com/Arvinalhissou)
 - Hussein Talal [@GitHub](https://github.com/husseinTalal2)
 - Evan Hameed [@GitHub](https://github.com/evanhameed99)
+
+
+---
+
+## Members roles 
+
+- Arvin Alhissou(Navbar section until Driven to deliver)
+- Evan Hameed (Driven to deliver section until the footer)
+- Hussein Talal (Footer section and the news wepage)
+- Sarah Mohammed (Contact webpage)
