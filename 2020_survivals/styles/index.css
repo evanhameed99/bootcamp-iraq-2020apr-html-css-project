@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
 *{
     padding: 0;
     margin:0;
@@ -7,7 +8,8 @@
 html,body{
     width: 100%;
     height:100hv;
-    
+    margin:0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar{
@@ -15,11 +17,23 @@ html,body{
     color:rgb(121, 120, 120);
 	transition: 0.5s;
 }
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    
+}
+.comp-name{
+    color: rgb(6, 6, 253);
+}
 
 .nav-item{
     margin-right: 20px;
     font-weight: bold;
     font-size: 1rem;
+}
+header{
+    margin:0;
 }
 .banner{
     width: 100%;
@@ -67,9 +81,11 @@ html,body{
     font-size: 4rem;
     font-weight: bold;
 }
-.contentBox h1 small{
+.contentBox  small{
     font-size:4rem ;
     font-style: italic;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
     color:rgb(221, 53, 53) ;
 }
 #home{
@@ -132,7 +148,8 @@ html,body{
 }
 
 .sec2{
-    background-color: rgb(239, 240, 235)
+    background-color: rgb(239, 240, 235);
+    margin:0;
 }
 .sec2 h2{
     margin-top: 30px;
@@ -161,5 +178,29 @@ html,body{
     color: rgb(211, 36, 36);
     padding-bottom: 60px;
 }
+@media screen and (max-width: 375px){
+    .contentBox h1{
+        font-size: 3rem;
+    
+    }
+    .contentBox  small{
+        font-size:3rem ;
+    }
+    .banner:before{
+       height: 98vh;
+    }
+    .feature{
+        width: 90%;
+    }
+    .sec2 h2{
+        font-size: 30px;
+    }
+    .card-services{
+        margin-bottom: 30px;
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 768px){
 
+}
 
