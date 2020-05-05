@@ -5,7 +5,15 @@
 .container-driven-to-deliver{
 
     padding-top: 4rem;
+    
+    color: rgb(64, 63, 85);
 }
+.container-driven-to-deliver h2{
+
+    color: rgb(127, 125, 171 );
+    font-family: 'Lobster', cursive;
+}
+
 
 /* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
 /* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
