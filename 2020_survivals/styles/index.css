@@ -22,8 +22,16 @@
 
 .subscribe-container-fluid{
     background: url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/07/susbscribe-bg.jpg?id=553);
-    min-height: 35vh;
+    min-height: 50vh;
+    background-repeat: no-repeat;
 }
+
+.email-input{
+
+    border:none;
+    border-radius: 20px;
+}
+
 
 /* Adding styles to OUR CLIENTS SECTION*/
 /* Adding styles to OUR CLIENTS SECTION*/
