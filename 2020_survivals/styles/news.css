@@ -21,8 +21,10 @@ body {
     border: none;
     box-shadow:  0px 10px 11px 1px rgba(0,0,0,.09);
     transition: all .3s ease-in-out;
+    bottom: 0;
 }
 
 .card:hover {
     box-shadow:0px 1px 1px 1px rgba(0,0,0,.06);
+    bottom: -4px;
 }
