@@ -1,4 +1,16 @@
 
+
+
+/* Storing some colors */
+/* Storing some colors */
+/* Storing some colors */
+
+:root{
+
+    --dark-purple:rgb(64,63,85);
+    --light-purple:rgb(127,125,171);
+}
+
 /* Adding styles to the DRIVEN TO DELIVER SECTION */
 /* Adding styles to the DRIVEN TO DELIVER SECTION */
 /* Adding styles to the DRIVEN TO DELIVER SECTION */
@@ -6,11 +18,11 @@
 
     padding-top: 4rem;
     
-    color: rgb(64, 63, 85);
+    color:var(--dark-purple);
 }
 .container-driven-to-deliver h2{
 
-    color: rgb(127, 125, 171 );
+    color: var(--light-purple);
     font-family: 'Lobster', cursive;
 }
 
@@ -40,5 +52,5 @@
 .our-clients-section{
 
     min-height: 90vh;
-    color: rgb(64, 63, 85);
+    color: var(--dark-purple);
 }
