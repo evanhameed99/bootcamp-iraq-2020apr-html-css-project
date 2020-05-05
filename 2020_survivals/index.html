@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-    
+     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!-- Animation CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -20,7 +23,131 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <header>
+     <div class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand " href="#"><img src="./imgs/finances-logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#home">Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#news">News</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link " href="#contact">Contact</a>
+                  </li>
+                </ul>
+             </div>
+        </nav>
+       </div>
+      
+          <div class="banner" id="home">
+             
+            <div class="container ">
+                <div class="contentBox text-center ">
+                   <h1>Giving financial <small>solutions</small><br>
+                    and security worldwide</h1>
+                </div>
+            </div>
+        </div>
+      </header>
+    <section class="sec1">
+        <div class="container feature ">
+            <div class="row mt-4">
+                <div class="col-sm-4">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h2 class="card-title">Growing your business and helping with organizing</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed dui tempus, vestibulum tellus a gravi</p>
+                        <a href="contact.html" class="btn btnD1">Contact Us</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./imgs/chart1.jpg" width="200" height="200">
+                      <div class="card-body">
+                       
+                        <h3 class="card-title">Increasing value</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id hendrerit risus. Nam vel eleifend arcu. Curabitur rutrum lorem arcu, dapibus fringilla dolor aliquet ut.</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./imgs/chart2.jpg" width="200" height="200">
+                       <div class="card-body">
+                         <h3 class="card-title">Optimal vision</h3>
+                         <p class="card-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Cras sed dui tempus, vestibulum tellus a, gravida orci</p>
+                       </div>
+                    </div>
+                </div>
+               </div>
+        </div>
+    </section>
+    <section class="sec2 " id="services">
+             <div class="container">
+                <div class="row">
+                    <div class="offset-sm-2 col-sm-8">
+                        <div class="headerText text-center">
+                            <h2>What we can offer</h2>
+                            <p> to increase financial security for your business</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="row services">
+				<div class="col-sm-4">
+                    <div class="card card-services">
+                       <div class="card-body">
+                        <a href="#home"><span class="arrow"> > </span></a>
+                         <h3 class="card-title">Finances</h3>
+                         <p class="card-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Mauris risus sem.</p>
+                       </div>
+                       <div class="clearfix">
+                       <img src="./imgs/chart3.jpg"  width="140" height="140" class="float-right">
+                       </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card-services"> 
+                       <div class="card-body">
+                        <a href="#home"><span class="arrow"> > </span></a>
+                         <h3 class="card-title">Consulting</h3>
+                         <p class="card-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Mauris risus sem.</p>
+                       </div>
+                       <div class="clearfix">
+                      <img src="./imgs/chart4.jpg"  width="140" height="140" class="float-right">
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card-services"> 
+                        <div class="card-body">
+                            <a href="#home"><span class="arrow"> > </span></a>
+                         <h3 class="card-title">Insurance</h3>
+                         <p class="card-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Mauris risus sem.</p>
+                       </div>
+                       <div class="clearfix">
+                       <img src="./imgs/chart5.jpg" width="140" height="140" class="float-right">
+                       </div>
+                    </div>
+                </div>
+             </div>
 
+    </section>
     <!-- THE BEGINNING OF THE DRIVEN TO DELIVER SECTION-->
     <!-- THE BEGINNING OF THE DRIVEN TO DELIVER SECTION-->
     <div class="container-fluid" style="min-height: 70vh;">
@@ -82,6 +209,7 @@
                   You will receive newest information about our projects, investments
                   
                   partners and other important information.</p>
+
 
                   <div class="input-group mb-3 mt-4"> 
                    <input type="text" class="form-control text-white bg-dark email-input" placeholder="Enter your email">
