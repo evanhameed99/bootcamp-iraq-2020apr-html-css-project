@@ -64,3 +64,59 @@ footer {
 .row {
     margin: 0 auto;
 }
+
+
+
+/* Storing some colors */
+/* Storing some colors */
+/* Storing some colors */
+
+:root{
+
+    --dark-purple:rgb(64,63,85);
+    --light-purple:rgb(127,125,171);
+}
+
+/* Adding styles to the DRIVEN TO DELIVER SECTION */
+/* Adding styles to the DRIVEN TO DELIVER SECTION */
+/* Adding styles to the DRIVEN TO DELIVER SECTION */
+.container-driven-to-deliver{
+
+    padding-top: 4rem;
+    
+    color:var(--dark-purple);
+}
+.container-driven-to-deliver h2{
+
+    color: var(--light-purple);
+    font-family: 'Lobster', cursive;
+}
+
+
+/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
+/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
+/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
+/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
+
+.subscribe-container-fluid{
+    background: url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/07/susbscribe-bg.jpg?id=553);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.email-input{
+
+    border:none;
+    border-radius: 20px;
+}
+
+
+/* Adding styles to OUR CLIENTS SECTION*/
+/* Adding styles to OUR CLIENTS SECTION*/
+/* Adding styles to OUR CLIENTS SECTION*/
+
+.our-clients-section{
+
+    min-height: 90vh;
+    color: var(--dark-purple);
+}
