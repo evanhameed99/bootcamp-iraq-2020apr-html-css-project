@@ -59,7 +59,7 @@ color: brown;
    
 }
 .contentBox h1{
-    margin:10rem 3rem;
+    margin:14rem 3rem;
 	color: #fff;
     font-size: 4rem;
     font-weight: bold;
@@ -89,7 +89,7 @@ color: brown;
     background-color: #fff;
     margin-top: -250px ; 
     width: 250rem;
-    z-index: 100000;  
+    z-index: 1;  
 }
 .card{
 padding: 40px 10px;
