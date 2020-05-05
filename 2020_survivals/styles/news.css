@@ -10,3 +10,8 @@ body {
 .first-section {
     padding: 3rem 0 ;
 }
+
+.cards-section {
+    background-color: white;
+    padding: 4rem 0;
+}
