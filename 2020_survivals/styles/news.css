@@ -1,3 +1,12 @@
+:root {
+    --bg-color: #fbfbfb;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color:var(--bg-color) ;
+}
+
+.first-section {
+    padding: 3rem 0 ;
 }
