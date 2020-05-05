@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
 *{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
     
+	scroll-behavior: smooth;
   }
-html,body{
+body{
     width: 100%;
     height:100hv;
     margin:0;
@@ -44,8 +42,6 @@ header{
     background-size: cover;
     
 }
-
-
 .banner:before{
     content: '';
     position: absolute;
@@ -88,12 +84,10 @@ header{
     font-family: 'Exo 2', sans-serif;
     color:rgb(221, 53, 53) ;
 }
-#home{
-	margin-bottom: 0;
-}
+
 .sec1 {
     padding: 100px 0;
-    background-color: rgb(239, 240, 235);
+    background-color: rgb(228, 225, 225);
     position: relative;
 	display: flex;
 	justify-content: center;
@@ -104,7 +98,6 @@ header{
 }
 .feature{
     display: flex;
-    flex-direction: row;
     background-color: #fff;
     margin-top: -250px ; 
     z-index: 1; 
@@ -148,7 +141,7 @@ header{
 }
 
 .sec2{
-    background-color: rgb(239, 240, 235);
+    background-color: rgb(228, 225, 225);
     margin:0;
 }
 .sec2 h2{
