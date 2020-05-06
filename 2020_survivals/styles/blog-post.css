@@ -36,6 +36,14 @@ body {
 /* post block styling */
 /* post block styling */
 
+section:nth-child(2) {
+    background-color: white;
+}
+
+.card {
+    border: none;
+}
+
 .card-title {
     font-size: 2rem;
 }
