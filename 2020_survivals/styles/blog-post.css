@@ -1,6 +1,6 @@
 :root {
     --bg-color: #fbfbfb;
-    --link-color: #7191B6;
+    --link-color: #908989;
 }
 
 body {
@@ -28,12 +28,17 @@ body {
 
 .link {
     color:var(--link-color);
+    transition: all .3s ease-in-out;
 }
 
 
 /* post block styling */
 /* post block styling */
 /* post block styling */
+
+.card-title {
+    font-size: 2rem;
+}
 
 .bold {
     font-weight: 700;
@@ -43,7 +48,14 @@ body {
     padding-left: 1rem;
 }
  
+.card-subtitle {
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
 
+.card .link:hover {
+    color: black;
+}
 
 
 
