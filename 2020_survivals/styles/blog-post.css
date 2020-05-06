@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color:var(--bg-color) ;
+    font-weight: 300;
 }
 
 .first-section {
@@ -34,6 +35,9 @@ body {
 /* post block styling */
 /* post block styling */
 
+.bold {
+    font-weight: 700;
+}
 
 .insights i {
     padding-left: 1rem;
