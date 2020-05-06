@@ -37,15 +37,29 @@ body {
 /* post block styling */
 /* post block styling */
 /* post block styling */
-
-section:nth-child(2) {
+.post-section .row {
+    padding-top: 3rem;
+    margin: 0 8rem;
+}
+.post-section {
     background-color: white;
 }
+.post-section col {
+    padding-left: 3rem;
+} 
+
 
 .card {
     border: none;
+    padding: 0;
 }
-
+.card-img-top {
+    height: 500px;
+}
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
 .card-title {
     font-size: 2rem;
 }
