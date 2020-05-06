@@ -93,12 +93,13 @@ section:nth-child(2) {
 /* end of btns part*/
 
 /* aside part*/
-
+.category, .recent-posts {
+    margin: 2rem 0;
+}
 .search-box {
     height: 3rem;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    
     color: #a9a9a9;
 }
 
@@ -121,8 +122,34 @@ section:nth-child(2) {
     background-color: #ee2c35;
     color: white;
     border: none;
+}
+.recent-posts li {
+    padding-top: 1.2rem;
+}
+
+.recent-posts ul{
+    list-style: none;
+    padding: 0;
     
-    
+}
+.recent-posts i {
+    padding-right: 1.2rem;
+}
+.category ul{
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.category a, .recent-posts a {
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    color: #908989;
+    font-size: 0.9rem;
+}
+
+.category li a:hover , .recent-posts li a:hover{
+    color: #ee2c35;
 }
 /*end of aside part*/
 
