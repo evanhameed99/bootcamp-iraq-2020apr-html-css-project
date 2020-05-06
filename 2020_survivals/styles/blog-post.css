@@ -1,4 +1,33 @@
+:root {
+    --bg-color: #fbfbfb;
+    --link-color: #7191B6;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:var(--bg-color) ;
+}
+
+.first-section {
+    padding: 3rem 0 ;
+}
+
+.first-section .link, .first-section span {
+    padding:0 1rem;
+}
+
+.first-section i {
+    margin-top: 4px;
+}
+
+.link:hover {
+    text-decoration: none;  
+    color: var(--link-color);
+}
+
+.link {
+    color:var(--link-color);
+}
 
 
 
