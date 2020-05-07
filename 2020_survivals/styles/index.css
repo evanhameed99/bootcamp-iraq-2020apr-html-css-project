@@ -13,7 +13,9 @@
     color: rgb(250, 91, 91);
 }
 .navbar-light .navbar-nav .nav-link{
-	color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255) ;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
 
 .banner{
@@ -35,10 +37,6 @@
     background:rgb(58, 49, 58);
     opacity: 0.5;
 }
-.container{
-    display: flex;
-    justify-content: center;
-}
 .contentBox h1{
     margin:14rem 3rem;
 	color: #fff;
@@ -47,7 +45,6 @@
 }
 .contentBox small{
     font-size:4rem ;
-    font-style: italic;
     font-weight: bold;
     font-family: 'Exo 2', sans-serif;
     color:rgb(221, 53, 53) ;
@@ -56,16 +53,9 @@
 .sec1 {
     padding: 100px 0;
     background-color: rgb(228, 225, 225);
-    position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    
-  
+    position: relative; 
 }
 .feature{
-    display: flex;
     background-color: #fff;
     margin-top: -250px ; 
     z-index: 1; 
@@ -139,6 +129,7 @@
     color: rgb(211, 36, 36);
     padding-bottom: 60px;
 }
+/*
 @media screen and (max-width: 375px){
     .contentBox h1{
         font-size: 3rem;
@@ -162,7 +153,7 @@
     }
 }
 
-
+*/
 
 body {
     font-family: 'Roboto', sans-serif;
