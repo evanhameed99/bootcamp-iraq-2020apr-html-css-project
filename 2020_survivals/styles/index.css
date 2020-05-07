@@ -3,18 +3,24 @@
 	scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
   }
-.navbar {
-	background: transparent !important;
-    transition: 0.5s;
-}
 
+.navbar{
+    background: #fff;
+    opacity: 0.9;
+	transition: 0.5s;
+}
+nav .white{
+    background: rgb(243, 242, 242);
+}
 .navbar-light .navbar-nav .nav-link:hover{
     color: rgb(250, 91, 91);
+    font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link{
-	color: rgb(255, 255, 255) ;
+    color: rgb(119, 115, 115) ;
+    padding-right: 2rem;
+    font-weight: bold;
 }
-
 .banner{
     width: 100%;
 	height: 100vh;
@@ -35,8 +41,7 @@
     opacity: 0.5;
 }
 .container{
-    display: flex;
-    justify-content: center;
+    position: relative;  
 }
 .contentBox h1{
     margin:14rem 3rem;
