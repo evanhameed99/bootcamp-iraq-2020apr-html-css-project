@@ -182,6 +182,13 @@ body {
 }
 /*end of aside part*/
 
+/* related posts part*/
+#related-posts-title {
+    padding: 2rem 0;
+}
+/* related posts part*/
+
+
 /* footer styling */
 
 :root {
