@@ -3,6 +3,7 @@
     --link-color: #908989;
     --btn-color: #f2f2f2;
     --btn-hvr-color: #e5e5e5 ;
+    /*titles color #3F3D56*/
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 
 .link {
     color:var(--link-color);
-    transition: all .3s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 
 
@@ -187,7 +188,24 @@ body {
     padding: 2rem 0;
 }
 /* related posts part*/
-
+#related-posts-title {
+    font-size: 1.2rem;
+}
+.card-deck .card-title {
+    font-size: 1rem;
+}
+.card-deck .card-text {
+    font-size: .8rem;
+}
+.card-img-top{
+    transition: all .3s ease-in-out;
+}
+.card-img-container {
+    overflow: hidden;
+}
+.card-deck .card-img-top:hover {
+    transform: scale(1.3);
+}
 
 /* footer styling */
 
