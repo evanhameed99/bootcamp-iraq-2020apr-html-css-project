@@ -4,6 +4,10 @@
     --btn-color: #f2f2f2;
     --btn-hvr-color: #e5e5e5 ;
     --navi-color:#3F3D56;
+    --own-red-color:#ee2c35;
+    --main-ftr-color: #3f3d56;
+    --text-color: #bebbdc;
+    --link-hvr-color:#ee2c35;
 }
 
 body {
@@ -34,6 +38,7 @@ body {
 .link {
     color:var(--link-color);
     transition: all .6s ease-in-out;
+    font-weight: 300;
 }
 
 
@@ -125,6 +130,12 @@ body {
 /* end of btns part*/
 
 /* aside part*/
+@media only screen and (min-width:992px){
+    .aside {
+        margin-left: 2rem;
+    }
+}
+
 .category, .recent-posts {
     margin: 2rem 0;
 }
@@ -151,7 +162,7 @@ body {
 }
 
 .search-box input:focus {
-    background-color: #ee2c35;
+    background-color: var(--own-red-color);
     color: white;
     border: none;
 }
@@ -166,6 +177,7 @@ body {
 }
 .recent-posts i {
     padding-right: 1.2rem;
+    color:var(--link-color) ;
 }
 .category ul{
     list-style: none;
@@ -181,7 +193,7 @@ body {
 }
 
 .category li a:hover , .recent-posts li a:hover{
-    color: #ee2c35;
+    color: var(--own-red-color);
 }
 /*end of aside part*/
 
@@ -224,7 +236,7 @@ body {
 
 .reply-section i {
     padding-left: .5rem;
-    color: #ee2c35;
+    color:var(--own-red-color);
 }
 
 .form-group-lg, .form-check {
@@ -232,21 +244,20 @@ body {
 }
 
 .reply-section .btn {
-    background-color: #ee2c35;
+    background-color: var(--own-red-color);
     color: white;
     font-size: .8rem;
     margin-top: 1.2rem;
+}
+
+form label {
+    font-size: 1rem;
 }
 /*end of reply section */
 
 /* footer styling */
 
-:root {
-    
-    --main-ftr-color: #3f3d56;
-    --text-color: #bebbdc;
-    --link-hvr-color:#ee2c35;
-}
+
 .col-list {
     list-style: none;
     padding-left: 0;
