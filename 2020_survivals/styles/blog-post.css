@@ -78,7 +78,23 @@ body {
 .card .link:hover {
     color: black;
 }
-
+@media only screen and (max-width:500px){
+    .card-subtitle {
+        display: flex;
+        flex-direction: column;
+    }
+    .insights {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    #tag-icon {
+        padding-left: 0;
+    }
+    .insights i {
+        padding-right: 0.4rem;
+    }
+}
 /* end of post block styling */
 /* btns part*/
 
