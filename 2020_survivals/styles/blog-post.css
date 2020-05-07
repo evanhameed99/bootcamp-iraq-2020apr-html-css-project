@@ -39,7 +39,6 @@ body {
 /* post block styling */
 .post-section .row {
     padding-top: 3rem;
-    margin: 0 8rem;
 }
 .post-section {
     background-color: white;
@@ -48,13 +47,12 @@ body {
     padding-left: 3rem;
 } 
 
-
 .card {
     border: none;
     padding: 0;
 }
 .card-img-top {
-    height: 500px;
+    height: auto;
 }
 .card-body {
     padding-left: 0;
@@ -81,6 +79,7 @@ body {
     color: black;
 }
 
+/* end of post block styling */
 /* btns part*/
 
 .btn {
