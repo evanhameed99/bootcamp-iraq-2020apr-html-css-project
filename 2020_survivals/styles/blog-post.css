@@ -186,9 +186,6 @@ body {
 /* related posts part*/
 #related-posts-title {
     padding: 2rem 0;
-}
-/* related posts part*/
-#related-posts-title {
     font-size: 1.2rem;
 }
 .card-deck .card-title {
@@ -206,6 +203,35 @@ body {
 .card-deck .card-img-top:hover {
     transform: scale(1.3);
 }
+/* end of related posts part*/
+
+/*reply section */
+
+.reply-section {
+    margin: 2rem 0;
+}
+
+
+.reply-section-title {
+    padding: 1rem 0;
+}
+
+.reply-section i {
+    padding-left: .5rem;
+    color: #ee2c35;
+}
+
+.form-group-lg, .form-check {
+    padding-top: 1rem;
+}
+
+.reply-section .btn {
+    background-color: #ee2c35;
+    color: white;
+    font-size: .8rem;
+    margin-top: 1.2rem;
+}
+/*end of reply section */
 
 /* footer styling */
 
