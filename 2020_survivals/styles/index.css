@@ -136,7 +136,7 @@ nav .white{
     color: rgb(211, 36, 36);
     padding-bottom: 60px;
 }
-/*
+
 @media screen and (max-width: 375px){
     .contentBox h1{
         font-size: 3rem;
@@ -169,7 +169,7 @@ nav .white{
     }
 }
 
-*/
+
 
 body {
     font-family: 'Roboto', sans-serif;
