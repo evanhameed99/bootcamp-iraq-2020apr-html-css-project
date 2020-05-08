@@ -282,7 +282,17 @@ color: var(--dark-purple);
     justify-content: center;
     align-items: center;
 }
+.subscribe-email-input{
 
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(48, 47, 47);
+}
+.subscribe-email-input:focus{
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
 /* STYLING OUR CLIENT SECTION*/
 /* STYLING OUR CLIENT SECTION*/
 /* STYLING OUR CLIENT SECTION*/
