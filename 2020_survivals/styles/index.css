@@ -196,7 +196,7 @@ footer {
     background-color: var(--main-ftr-color);
 }
 
-footer.col {
+footer .col {
     margin-top: 6rem;
 }
 
@@ -240,7 +240,7 @@ footer.col {
    margin-bottom: 1rem;
 }
 
-footer.row {
+footer .row {
     margin: 0 auto;
 }
 
