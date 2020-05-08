@@ -60,7 +60,9 @@ body {
 .card-subtitle {
     margin-bottom: 0.7rem;
 }
-
+.card-subtitle a {
+    font-weight: 400;
+}
 .tags {
     font-size: .8rem;
 }
