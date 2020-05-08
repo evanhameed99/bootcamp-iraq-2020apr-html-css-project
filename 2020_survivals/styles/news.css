@@ -1,11 +1,14 @@
 :root {
     --bg-color: #fbfbfb;
     --link-color: #7191B6;
+    --navi-color:#3F3D56;
+    --link-hvr-color:#ee2c35;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color:var(--bg-color) ;
+    font-weight: 300;
 }
 
 .first-section {
@@ -46,18 +49,33 @@ body {
 
 .link:hover {
     text-decoration: none;  
-    color: var(--link-color);
+    color: var(--link-hvr-color);
 }
 
 .link {
-    color:var(--link-color);
+    color:var(--navi-color);
+    transition: all .3s ease-in-out;
 }
 
 .card-subtitle {
     margin-bottom: 0.7rem;
 }
+.card-subtitle a {
+    font-weight: 400;
+}
+.tags {
+    font-size: .8rem;
+}
 
-
+.card-img-top {
+    transition: all .5s ease-in-out;
+}
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+.card-img-container {
+    overflow: hidden;
+}
 /* footer styling */
 
 :root {
