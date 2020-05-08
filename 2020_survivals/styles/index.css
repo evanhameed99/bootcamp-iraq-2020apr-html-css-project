@@ -4,7 +4,9 @@
 	scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
   }
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .navbar{
     background: #fff;
     opacity: 0.9;
@@ -171,20 +173,26 @@ nav .white{
 
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
 :root {
     
-    --main-ftr-color: #3f3d56;
-    --text-color: #bebbdc;
-    --link-hvr-color:#ee2c35;
+    
 }
 .col-list {
     list-style: none;
     padding-left: 0;
 }
+/* Storing some colors in variables */
+/* Storing some colors in variables */
+/* Storing some colors in variables */
 
+:root{
+    --main-ftr-color: #3f3d56;
+    --text-color: #bebbdc;
+    --link-hvr-color:#ee2c35;
+    --light-purple:rgb(127,125,171);
+    --dark-purple:rgb(64,63,85);
+}
 footer {
     min-height: 60vh;
     background-color: var(--main-ftr-color);
@@ -240,15 +248,7 @@ footer {
 
 
 
-/* Storing some colors in variables */
-/* Storing some colors in variables */
-/* Storing some colors in variables */
 
-:root{
-
-    --light-purple:rgb(127,125,171);
-    --dark-purple:rgb(64,63,85);
-}
 /* STYLING DRIVEN TO DELIVER SECTION*/
 /* STYLING DRIVEN TO DELIVER SECTION*/
 /* STYLING DRIVEN TO DELIVER SECTION*/
