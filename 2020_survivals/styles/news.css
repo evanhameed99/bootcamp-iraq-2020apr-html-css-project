@@ -1,6 +1,8 @@
 :root {
     --bg-color: #fbfbfb;
     --link-color: #7191B6;
+    --navi-color:#3F3D56;
+    --link-hvr-color:#ee2c35;
 }
 
 body {
@@ -46,11 +48,11 @@ body {
 
 .link:hover {
     text-decoration: none;  
-    color: var(--link-color);
+    color: var(--link-hvr-color);
 }
 
 .link {
-    color:var(--link-color);
+    color:var(--navi-color);
 }
 
 .card-subtitle {
