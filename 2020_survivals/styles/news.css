@@ -64,6 +64,16 @@ body {
 .tags {
     font-size: .8rem;
 }
+
+.card-img-top {
+    transition: all .5s ease-in-out;
+}
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+.card-img-container {
+    overflow: hidden;
+}
 /* footer styling */
 
 :root {
