@@ -4,18 +4,24 @@
 	scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
   }
-.navbar {
-	background: transparent !important;
-    transition: 0.5s;
-}
 
+.navbar{
+    background: #fff;
+    opacity: 0.9;
+	transition: 0.5s;
+}
+nav .white{
+    background: rgb(243, 242, 242);
+}
 .navbar-light .navbar-nav .nav-link:hover{
     color: rgb(250, 91, 91);
+    font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link{
-	color: rgb(255, 255, 255) ;
+    color: rgb(119, 115, 115) ;
+    padding-right: 2rem;
+    font-weight: bold;
 }
-
 .banner{
     width: 100%;
 	height: 100vh;
@@ -35,13 +41,8 @@
     background:rgb(58, 49, 58);
     opacity: 0.5;
 }
-.contentBox{
-	position: relative;
-	display: flex;
-	justify-content: center;
-
-	text-align: center;
-   
+.container{
+    position: relative;  
 }
 .contentBox h1{
     margin:14rem 3rem;
@@ -51,7 +52,6 @@
 }
 .contentBox small{
     font-size:4rem ;
-    font-style: italic;
     font-weight: bold;
     font-family: 'Exo 2', sans-serif;
     color:rgb(221, 53, 53) ;
@@ -60,16 +60,9 @@
 .sec1 {
     padding: 100px 0;
     background-color: rgb(228, 225, 225);
-    position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    
-  
+    position: relative; 
 }
 .feature{
-    display: flex;
     background-color: #fff;
     margin-top: -250px ; 
     z-index: 1; 
@@ -132,7 +125,7 @@
 .card-services{
     position: relative;
     width: 90%;
-    height: 75vh;
+    height: 79vh;
     margin-left: 30px;
 }
 .card a{
@@ -143,6 +136,7 @@
     color: rgb(211, 36, 36);
     padding-bottom: 60px;
 }
+/*
 @media screen and (max-width: 375px){
     .contentBox h1{
         font-size: 3rem;
@@ -150,9 +144,6 @@
     }
     .contentBox  small{
         font-size:3rem ;
-    }
-    .banner:before{
-       height: 98vh;
     }
     .feature{
         width: 90%;
@@ -162,11 +153,23 @@
     }
     .card-services{
         margin-bottom: 30px;
+        min-height: 98vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .contentBox h1{
+        text-align: center;
+    }
+    .card-services{
+        margin-bottom: 30px;
         height: 60vh;
+    }
+    .card-services p{
+        font-size: 30px;
     }
 }
 
-
+*/
 
 body {
     font-family: 'Roboto', sans-serif;
