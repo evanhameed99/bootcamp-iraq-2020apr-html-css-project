@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color:var(--bg-color) ;
+    font-weight: 300;
 }
 
 .first-section {
@@ -53,6 +54,7 @@ body {
 
 .link {
     color:var(--navi-color);
+    transition: all .3s ease-in-out;
 }
 
 .card-subtitle {
