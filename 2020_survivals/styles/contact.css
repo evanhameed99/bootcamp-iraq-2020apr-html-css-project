@@ -1,11 +1,12 @@
 
 *{
     
-    font-weight: 400;
     box-sizing: border-box;
     margin: 0;
 }
-/* this is the color of the contacts head*/
+
+   
+/* this is the color of the contacts head the bar with contacts*/
 .thesection{
     background: #fbfbfb;
 }
@@ -20,11 +21,10 @@
    
     
 }
-
 .text__head{
     margin:50px 100px;
     display: inline;
-
+    color: #3f3d56;
   
 }
 .home{
@@ -37,9 +37,25 @@ text-decoration: none;
 .contact{
     color:#898989;
 }
+/*overwrite the form with css  to change the border of the input and the size */
+.form-control{
+ 
+ width:350px !important;
+ border-radius: 25px;
+ padding:10px;
+
+}
+/*this padding will control the space between the name and surname*/
+.col{
+    padding:4px !important;
+}
+
+
+
 label::after{
 content:" ☑️";
 }
+/* it is the container of the text in the center */
 .text{
     display:flex;
     width: 100%;
@@ -47,39 +63,51 @@ content:" ☑️";
     justify-content: center;
     align-items: center;
     
+    
 }
+/*the design of the text to make the text centered and adjust the font properties */
 .text__design{
     text-align:center;
-}
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    color: #3f3d56;
 
+}
+/*the message box */
 textarea{
     width: 758px;
     height:200px;
+    border-radius: 25px;
+    outline: none;
     
 }
 .table-container{
-    
-    
     width:50%;
    margin:0 auto;
    
-  
-   
 }
+
+/* the Email input size differes from the the size of the name and the surname thats why we gave it different width in the id*/
+#Email{
+    width: 750px !important;
+    border-radius: 25px;
+}
+/*the red text - we can help -*/
 .color__text{
     color:red;
     font-style: italic;
-    font-family:'Raleway',serif;
+    font-family:Philosopher;
 }
+/*the details a bout the map link and the size of it */
 .map{
     width:100%;
-    color:black;
+    margin-top:100px;
+    height:700px;
    
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
 :root {
     
     --main-ftr-color: #3f3d56;
@@ -143,9 +171,144 @@ footer {
 .row {
     margin: 0 auto;
 }
-.map{
-    margin-top:100px;
-    height:700px;
+
+
+/* responsive for the ipad */
+@media only screen and (max-width:768px){
+    .contacts-head{
+    
+        margin:0 auto;
+        display:inline;
+     
+        font-family: 'roboto';
+        text-align: center;
+        
+       
+       }
+       .text__head{
+           margin-left: 330px;
+       }
+    .text{
+        margin-top: 40px;
+        display:block;
+     width: 100%;
+     height: 100px;
+     
+    }
+    .text__design{
+        text-align:left;
+        font-weight: 900;
+        font-size: 42px;
+        font-style: normal;
+        
+        line-height: 52px;
+        margin-left:70px;
+        margin-top: 80px;
+        padding:3px;
+        
+       }
+       .color__text{
+        text-align: left;
+        display:block;
+    }
+    .table-container{
+    
+        width:80%;
+       
+    }
+    .form-control{
+        width: 600px !important;
+        margin-top:auto;
+        
+     }
+     .col2{
+         margin:2px;
+     }
+    .map{
+        width: 100%;
+    }
+    textarea{
+        width: 600px;
+    }
+    #Email{
+       width: 600px !important;
+    }
+
 }
 
-/* responsive not yet have been written*/
+/*responsive for the iphonex*/
+
+@media only screen and (max-width:375px){
+    .contacts-head{
+        text-align: center;
+        margin-top:10px;
+       
+    }
+    .text__head{
+        text-align: center;
+        display: inline-block;
+        height: 10px;
+        margin-top:10px ;
+        margin-left:150px ;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 25px;
+        font-style: normal;
+    }
+    
+   .text{
+       margin-top: 40px;
+       display:block;
+    width: 100%;
+    height: 100px;
+    
+   }
+   .contacts-head{
+    
+    margin:0 auto;
+    display:inline;
+ 
+    font-family: 'roboto';
+    
+   
+   }
+   .text__design{
+    text-align:left;
+    font-weight: 900;
+    font-size: 42px;
+    font-style: normal;
+    line-height: 52px;
+    margin-left:50px;
+    margin-top: 80px;
+    padding:3px;
+    
+   }
+   .color__text{
+       text-align: left;
+       display:block;
+   }
+   
+   .table-container{
+    
+    width:80%;
+   
+}
+textarea{
+    width: 300px;
+}
+#Email{
+   width: 300px !important;
+}
+.form-control{
+    width: 300px !important;
+    margin-top:auto;
+    
+ }
+ .col2{
+     margin:2px;
+ }
+.map{
+    width: 100%;
+}
+}
+
