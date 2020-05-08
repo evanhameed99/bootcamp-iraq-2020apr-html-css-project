@@ -240,57 +240,56 @@ footer {
 
 
 
-/* Storing some colors */
-/* Storing some colors */
-/* Storing some colors */
+/* Storing some colors in variables */
+/* Storing some colors in variables */
+/* Storing some colors in variables */
 
 :root{
 
-    --dark-purple:rgb(64,63,85);
     --light-purple:rgb(127,125,171);
+    --dark-purple:rgb(64,63,85);
 }
-
-/* Adding styles to the DRIVEN TO DELIVER SECTION */
-/* Adding styles to the DRIVEN TO DELIVER SECTION */
-/* Adding styles to the DRIVEN TO DELIVER SECTION */
-.container-driven-to-deliver{
-
-    padding-top: 4rem;
-    
-    color:var(--dark-purple);
+/* STYLING DRIVEN TO DELIVER SECTION*/
+/* STYLING DRIVEN TO DELIVER SECTION*/
+/* STYLING DRIVEN TO DELIVER SECTION*/
+.driven-to-deliver-section{
+padding:3rem 0rem ;
+min-height: 75vh;
+color: var(--dark-purple);
 }
-.container-driven-to-deliver h2{
+.driven-to-deliver-row{
+
+    color: var(--dark-purple);
+}
+.driven-to-deliver-header h1{
 
     color: var(--light-purple);
-    font-family: 'Lobster', cursive;
 }
 
+/* STYLING DRIVEN TO SUBSCRIBE SECTION*/
+/* STYLING DRIVEN TO SUBSCRIBE SECTION*/
+/* STYLING DRIVEN TO SUBSCRIBE SECTION*/
 
-/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
-/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
-/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
-/* Adding styles to SUBSCRIBE TO OUR NEWSETTLER*/
-
-.subscribe-container-fluid{
-    background: url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/07/susbscribe-bg.jpg?id=553);
-    min-height: 50vh;
+.subscribe-section{
+    background: #3a354a url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/07/susbscribe-bg.jpg?id=553) !important;
+    min-height: 45vh;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 0rem;
+    color: rgb(229, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.email-input{
+/* STYLING OUR CLIENT SECTION*/
+/* STYLING OUR CLIENT SECTION*/
+/* STYLING OUR CLIENT SECTION*/
+.our-client-section{
 
-    border:none;
-    border-radius: 20px;
-}
-
-
-/* Adding styles to OUR CLIENTS SECTION*/
-/* Adding styles to OUR CLIENTS SECTION*/
-/* Adding styles to OUR CLIENTS SECTION*/
-
-.our-clients-section{
-
-    min-height: 90vh;
+    min-height: 100vh;
+    padding: 3rem 0rem;
     color: var(--dark-purple);
 }
 
