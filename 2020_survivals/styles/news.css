@@ -61,7 +61,9 @@ body {
     margin-bottom: 0.7rem;
 }
 
-
+.tags {
+    font-size: .8rem;
+}
 /* footer styling */
 
 :root {
